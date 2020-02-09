@@ -1,0 +1,104 @@
+header{
+  background-color: black;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-weight: bold;
+  justify-content: left;
+}
+
+body {
+  /*フッター関係*/
+  padding: 0;
+  margin: 0;
+  /*フッター関係ここまで*/
+
+  background-color: #f4f4f4;
+  font-size: 20px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  vertical-align: middle;
+
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 750px;
+}
+
+.item_icon {
+  float: left;
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  padding: 0.5em 0.5em;
+}
+
+.details {
+  padding: 0 0.25em;
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5em 0.5em;
+
+  max-width: 400px;
+}
+
+ul {
+  text-align: left;
+}
+
+.info{
+  position: relative;
+  border-radius: 20px;
+  display: block;
+}
+.dl{
+  position: relative;
+  border-radius: 20px;
+  display: block;
+}
+
+.dl:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.dl:hover {
+  background-color:#f0ffe0;
+}
+
+.dl a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-indent:-999px;
+}
+
+footer{
+  width: 100%; 
+  background-color: #cacaca;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+
+  margin-top: auto;
+}
+
+.dlsite{
+  font-size: 25px;
+  margin-bottom:0px;
+}
