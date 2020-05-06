@@ -41,6 +41,13 @@ nav .container{
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+.header-logo{
+  min-height: 3rem;
+  max-height: 3rem;
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
 
 .nav-contents{
   display: inline-block;
